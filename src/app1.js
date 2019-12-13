@@ -7,7 +7,7 @@ const reduce = $('#reduce')
 const ride = $('#ride')
 const divide = $('#divide')
 const number = $('#number')
-let x = localStorage.getItem('n')
+let x = localStorage.getItem('n') || 100
 number.text(x)
 
 add.on('click', ()=>{
