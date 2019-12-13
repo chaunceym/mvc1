@@ -1,0 +1,17 @@
+
+#app2 > ol{
+    display: flex;
+    justify-content: center;
+    border: 3px solid pink;
+}
+#app2 #titleBar li{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+}
+#app2 #contentBar li{
+    display: none;
+}
+#app2 #contentBar li.active{
+    display: block;
+}

@@ -1,0 +1,13 @@
+body{
+    overflow: hidden;
+}
+#global{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#app1,#app2,#app3,#app4{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid red;
+}

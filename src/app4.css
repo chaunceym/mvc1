@@ -1,0 +1,18 @@
+#app4 #circle{
+    width: 20vw;
+    height: 20vw;
+    background: black;
+    margin: 20px;
+    border-radius: 50%;
+}
+@keyframes colorChange {
+    0%{
+        background: #000;
+    }
+    100%{
+        background: yellow;
+    }
+}
+#app4 #circle.active{
+    animation: colorChange 1s linear infinite;
+}
